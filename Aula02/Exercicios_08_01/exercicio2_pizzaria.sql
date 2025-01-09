@@ -53,6 +53,7 @@ SELECT * FROM tb_pizzas WHERE nome_pizza LIKE "%m%";
 SELECT * FROM tb_pizzas INNER JOIN tb_categorias
 ON tb_pizzas.pizza_categoria = tb_categorias.id_categoria;
 
+-- EXIBIR PIZZAS VEGANAS
 SELECT * FROM tb_pizzas INNER JOIN tb_categorias
 ON tb_pizzas.pizza_categoria = tb_categorias.id_categoria
 WHERE pizza_categoria = 3;

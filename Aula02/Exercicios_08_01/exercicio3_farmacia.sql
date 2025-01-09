@@ -51,6 +51,7 @@ SELECT * FROM tb_produtos WHERE nome_produto LIKE "%c%";
 SELECT * FROM tb_produtos INNER JOIN tb_categorias
 ON tb_produtos.produto_categoria = tb_categorias.id_categoria;
 
+-- EXIBIR SUPLEMENTOS
 SELECT * FROM tb_produtos INNER JOIN tb_categorias
 ON tb_produtos.produto_categoria = tb_categorias.id_categoria
 WHERE produto_categoria = 4;
